@@ -6,4 +6,5 @@ node_modules/
 public/
 .deploy*/
 .idea
-backstop_data/
+backstop_data/bitmaps_reference/
+backstop_data/bitmaps_test/
