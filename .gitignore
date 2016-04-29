@@ -6,5 +6,10 @@ node_modules/
 public/
 .deploy*/
 .idea
-backstop_data/bitmaps_reference/
-backstop_data/bitmaps_test/
+
+backstop-tests/muse/reference/
+backstop-tests/muse/test/
+backstop-tests/mist/reference/
+backstop-tests/mist/test/
+backstop-tests/pisces/reference/
+backstop-tests/pisces/test/

@@ -5,6 +5,14 @@
   "hexo": {
     "version": "3.2.0"
   },
+  "scripts": {
+    "muse:ref": "node backstop-tests/run --target=muse --task=reference",
+    "muse:test": "node backstop-tests/run --target=muse --task=test",
+    "mist:ref": "node backstop-tests/run --target=mist --task=reference",
+    "mist:test": "node backstop-tests/run --target=mist --task=test",
+    "pisces:ref": "node backstop-tests/run --target=pisces --task=reference",
+    "pisces:test": "node backstop-tests/run --target=pisces --task=test"
+  },
   "dependencies": {
     "hexo": "^3.2.0",
     "hexo-generator-archive": "^0.1.2",
@@ -17,6 +25,10 @@
     "hexo-server": "^0.1.2"
   },
   "devDependencies": {
-    "backstopjs": "^1.2.1"
+    "backstopjs": "^1.2.1",
+    "http-server": "^0.9.0",
+    "lodash": "^4.11.1",
+    "shelljs": "^0.7.0",
+    "yargs": "^4.6.0"
   }
 }
